@@ -1,108 +1,738 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>Riparazione Serrande Parma | Parma Serrande</title>
+  <title>Riparazione Serrande Parma | Serrande Bloccate, Motori e Installazione Nuove Serrande</title>
+  <meta name="description" content="Riparazione serrande a Parma e provincia. Serrande bloccate, storte, molle rotte, sostituzione motori e installazione serrande nuove. Tecnici locali di Nuova Carpenteria Metallica, attiva dal 1970." />
+  <meta name="keywords" content="riparazione serrande Parma, serranda bloccata Parma, motore serranda Parma, installazione serrande Parma, sostituzione molla serranda Parma, serrande Parma provincia, Nuova Carpenteria Metallica" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.parmaserrande.it/" />
 
-  <meta name="description" content="Riparazione serrande a Parma e provincia. Interventi professionali su serrande bloccate, motori guasti e sostituzione molle.">
+  <meta property="og:title" content="Riparazione Serrande Parma | Nuova Carpenteria Metallica dal 1970" />
+  <meta property="og:description" content="Riparazione, sostituzione e motorizzazione serrande a Parma e provincia con tecnici locali specializzati." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.parmaserrande.it/" />
+  <meta property="og:image" content="https://www.parmaserrande.it/images/serranda-bloccata-parma.png" />
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&display=swap" rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1a4232",
+            "background-light": "#f6f8f7",
+            "background-dark": "#151d1a",
+          },
+          fontFamily: {
+            display: ["Public Sans", "sans-serif"]
+          },
+          borderRadius: {
+            DEFAULT: "0.25rem",
+            lg: "0.5rem",
+            xl: "0.75rem",
+            full: "9999px"
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    body { font-family: 'Public Sans', sans-serif; }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+    }
+    html { scroll-behavior: smooth; }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Parma Serrande - Nuova Carpenteria Metallica",
+    "description": "Riparazione serrande, installazione serrande nuove, motorizzazione serrande e sostituzione molle a Parma e provincia.",
+    "url": "https://www.parmaserrande.it/",
+    "telephone": "+390521272508",
+    "email": "info@nuovacarpenteriametallica.it",
+    "areaServed": [
+      "Parma",
+      "Fidenza",
+      "Salsomaggiore Terme",
+      "Collecchio",
+      "Langhirano",
+      "Noceto",
+      "Fontevivo",
+      "Sorbolo Mezzani",
+      "Sala Baganza",
+      "Felino",
+      "Traversetolo",
+      "Torrile",
+      "Colorno",
+      "Busseto",
+      "Fontanellato",
+      "Fornovo di Taro",
+      "Medesano",
+      "San Secondo Parmense"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Nuova Carpenteria Metallica"
+    }
+  }
+  </script>
 </head>
 
-<body class="bg-white text-gray-800">
+<body class="bg-background-light text-slate-900">
 
-<!-- HERO -->
-<section class="bg-gray-100 py-12">
-  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
-
-    <div>
-      <h1 class="text-3xl md:text-5xl font-bold mb-4">
-        Serranda bloccata o danneggiata a Parma?
-      </h1>
-
-      <p class="text-lg mb-6">
-        Interveniamo a Parma e provincia su serrande civili e commerciali.
-        Assistenza professionale, lavoro eseguito con cura e comunicazione chiara.
-      </p>
-
-      <a href="tel:0521272508" class="bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow">
-        Chiama ora
-      </a>
+  <!-- Top Bar -->
+  <div class="bg-primary text-white text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-col sm:flex-row justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined text-base">location_on</span>
+        <span>Tecnici locali di Parma · Nuova Carpenteria Metallica dal 1970</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:+390521272508" class="hover:underline">0521 272508</a>
+        <a href="mailto:info@nuovacarpenteriametallica.it" class="hover:underline">info@nuovacarpenteriametallica.it</a>
+      </div>
     </div>
-
-    <div>
-      <img src="images/serranda-bloccata-parma.png" 
-           alt="Riparazione serranda Parma" 
-           class="rounded-xl shadow-lg w-full">
-    </div>
-
   </div>
-</section>
 
-<!-- FIDUCIA -->
-<section class="py-12 text-center">
-  <div class="max-w-4xl mx-auto px-4">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-primary/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex items-center gap-3">
+          <div class="bg-primary text-white p-2 rounded-lg">
+            <span class="material-symbols-outlined text-2xl">construction</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-primary font-black text-xl leading-none">ParmaSerrande.it</span>
+            <span class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Nuova Carpenteria Metallica dal 1970</span>
+          </div>
+        </div>
 
-    <h2 class="text-2xl font-semibold mb-6">
-      Non promettiamo tempi impossibili.<br>
-      Promettiamo serietà, esperienza e un lavoro fatto bene.
-    </h2>
+        <nav class="hidden md:flex items-center gap-8">
+          <a class="text-sm font-semibold hover:text-primary transition-colors" href="#servizi">Servizi</a>
+          <a class="text-sm font-semibold hover:text-primary transition-colors" href="#problemi">Problemi comuni</a>
+          <a class="text-sm font-semibold hover:text-primary transition-colors" href="#zone">Zone servite</a>
+          <a class="text-sm font-semibold hover:text-primary transition-colors" href="#contatti">Contatti</a>
+        </nav>
 
-    <div class="grid md:grid-cols-3 gap-6 mt-8 text-left">
-      <div>✔ Tecnici Locali qualificati con esperienza sul campo</div>
-      <div>✔ Interventi su Parma e provincia</div>
-      <div>✔ Assistenza su serrande manuali e motorizzate</div>
+        <div class="flex items-center gap-3">
+          <a class="hidden sm:flex bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold items-center gap-2 hover:bg-primary/90 transition-all" href="tel:+390521272508">
+            <span class="material-symbols-outlined text-sm">call</span>
+            CHIAMA ORA
+          </a>
+        </div>
+      </div>
     </div>
+  </header>
 
-  </div>
-</section>
+  <!-- Hero -->
+  <section class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="flex flex-col gap-8 order-2 lg:order-1">
+          <div class="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+            <span class="material-symbols-outlined text-sm">handyman</span>
+            Tecnici locali a Parma e provincia
+          </div>
 
-<!-- SERVIZI -->
-<section class="bg-gray-100 py-12">
-  <div class="max-w-6xl mx-auto px-4">
+          <h1 class="text-4xl lg:text-6xl font-black text-slate-900 leading-[1.05]">
+            Serranda bloccata o danneggiata a Parma?
+            <span class="text-primary block mt-2">Riparazione, installazione e motorizzazione serrande</span>
+          </h1>
 
-    <h2 class="text-3xl font-bold text-center mb-10">
-      Servizi principali
-    </h2>
+          <p class="text-lg text-slate-600 leading-relaxed">
+            Operiamo a Parma e provincia su serrande civili e commerciali, serrande manuali e motorizzate,
+            sostituzione molle, installazione di serrande nuove e nuovi motori per serranda.
+            Siamo i tecnici locali di <strong>Nuova Carpenteria Metallica</strong>, attiva sul mercato <strong>dal 1970</strong>.
+          </p>
 
-    <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white border border-primary/10 rounded-2xl p-5 shadow-sm">
+            <p class="text-2xl font-bold leading-snug">
+              Non promettiamo tempi impossibili.<br>
+              <span class="text-primary">Promettiamo serietà, esperienza e un lavoro fatto bene.</span>
+            </p>
+            <div class="grid sm:grid-cols-3 gap-4 mt-5 text-sm font-semibold text-slate-700">
+              <div class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-primary">verified</span>
+                <span>Tecnici qualificati con esperienza sul campo</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-primary">location_on</span>
+                <span>Interventi su Parma e provincia</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-primary">garage</span>
+                <span>Assistenza su serrande manuali e motorizzate</span>
+              </div>
+            </div>
+          </div>
 
-      <div class="bg-white p-4 rounded-lg shadow">
-        <img src="images/molla-rotta.png" class="mb-4 rounded w-full">
-        <h3 class="font-bold mb-2">Sostituzione molle</h3>
-        <p>Ripristino del corretto funzionamento di serrande con molle usurate o rotte.</p>
+          <div class="flex flex-wrap gap-4">
+            <a class="flex-1 min-w-[220px] flex items-center justify-center gap-2 bg-primary text-white px-8 py-4 rounded-xl text-lg font-bold hover:scale-[1.02] transition-transform" href="tel:+390521272508">
+              <span class="material-symbols-outlined">phone_in_talk</span>
+              CHIAMA 0521 272508
+            </a>
+
+            <a class="flex-1 min-w-[220px] flex items-center justify-center gap-2 bg-green-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-green-700 transition-colors" target="_blank" rel="noopener" href="https://wa.me/393385213333?text=Ciao%2C%20vorrei%20inviare%20foto%20della%20mia%20serranda%20per%20un%20intervento%20a%20Parma%20o%20provincia.">
+              <span class="material-symbols-outlined">chat</span>
+              INVIA FOTO SU WHATSAPP
+            </a>
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-4 text-sm">
+            <div class="bg-white rounded-xl p-4 border border-slate-200">
+              <p class="font-black text-primary text-lg">Dal 1970</p>
+              <p class="text-slate-600">Esperienza reale nella carpenteria metallica e nei sistemi di chiusura</p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-slate-200">
+              <p class="font-black text-primary text-lg">Tecnici locali</p>
+              <p class="text-slate-600">Nessun call center, nessun intermediario: operiamo direttamente da Parma</p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-slate-200">
+              <p class="font-black text-primary text-lg">Serrande e motori</p>
+              <p class="text-slate-600">Riparazione, sostituzione, nuove serrande e nuovi motori per serranda</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-primary/10 rounded-3xl -rotate-2"></div>
+            <img
+              alt="Tecnico locale al lavoro su serranda bloccata a Parma"
+              class="relative rounded-2xl w-full h-[420px] lg:h-[620px] object-cover shadow-2xl"
+              src="images/serranda-bloccata-parma.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Credibilità -->
+  <section class="py-20 bg-primary/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col lg:flex-row gap-12 items-end mb-16">
+        <div class="lg:w-2/3">
+          <h2 class="text-3xl lg:text-4xl font-black mb-6">
+            Tecnici di Parma, <span class="text-primary">non intermediari</span>
+          </h2>
+          <p class="text-lg text-slate-600 leading-relaxed">
+            Parma Serrande è il servizio dedicato di <strong>Nuova Carpenteria Metallica</strong>.
+            Operiamo direttamente a Parma e provincia con tecnici locali e competenze maturate in oltre 50 anni di attività.
+            Questo significa contatto diretto, conoscenza del territorio, esperienza concreta su serrande civili e commerciali,
+            motorizzazioni, sostituzione componenti e installazione di serrande nuove.
+          </p>
+        </div>
       </div>
 
-      <div class="bg-white p-4 rounded-lg shadow">
-        <img src="images/motore-rotto.png" class="mb-4 rounded w-full">
-        <h3 class="font-bold mb-2">Motorizzazione</h3>
-        <p>Installazione e riparazione motori per serrande manuali ed elettriche.</p>
-      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl border border-primary/10 shadow-sm">
+          <span class="material-symbols-outlined text-4xl text-primary mb-4">group</span>
+          <h3 class="text-xl font-bold mb-2">Tecnici locali veri</h3>
+          <p class="text-slate-600">Operiamo da Parma, conosciamo il territorio e lavoriamo senza passaggi inutili.</p>
+        </div>
 
-      <div class="bg-white p-4 rounded-lg shadow">
-        <img src="images/serranda-negozio.png" class="mb-4 rounded w-full">
-        <h3 class="font-bold mb-2">Serrande negozi</h3>
-        <p>Assistenza per serrande di attività commerciali e contesti industriali.</p>
-      </div>
+        <div class="bg-white p-8 rounded-2xl border border-primary/10 shadow-sm">
+          <span class="material-symbols-outlined text-4xl text-primary mb-4">calendar_today</span>
+          <h3 class="text-xl font-bold mb-2">Dal 1970</h3>
+          <p class="text-slate-600">Siamo sul mercato da oltre 50 anni con l’esperienza di Nuova Carpenteria Metallica.</p>
+        </div>
 
+        <div class="bg-white p-8 rounded-2xl border border-primary/10 shadow-sm">
+          <span class="material-symbols-outlined text-4xl text-primary mb-4">precision_manufacturing</span>
+          <h3 class="text-xl font-bold mb-2">Riparazione e installazione</h3>
+          <p class="text-slate-600">Non solo riparazioni: installiamo serrande nuove e nuovi motori per serranda.</p>
+        </div>
+      </div>
     </div>
+  </section>
 
+  <!-- Problemi comuni -->
+  <section class="py-20" id="problemi">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl lg:text-4xl font-black mb-4">Problemi comuni con la serranda</h2>
+        <p class="text-lg text-slate-600">
+          Se la tua serranda è bloccata, storta, rumorosa, non sale, non scende o ha il motore guasto,
+          interveniamo a Parma e provincia per valutare la soluzione più adatta.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="group bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200">
+          <div class="aspect-square overflow-hidden">
+            <img alt="Serranda bloccata a Parma" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/serranda-bloccata-parma.png" />
+          </div>
+          <div class="p-5">
+            <h4 class="font-bold text-lg mb-2">Serranda bloccata</h4>
+            <p class="text-sm text-slate-600">Quando la serranda non si muove, si incastra o resta ferma a metà.</p>
+          </div>
+        </div>
+
+        <div class="group bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200">
+          <div class="aspect-square overflow-hidden">
+            <img alt="Molla serranda rotta a Parma" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/molla-rotta.png" />
+          </div>
+          <div class="p-5">
+            <h4 class="font-bold text-lg mb-2">Molla rotta</h4>
+            <p class="text-sm text-slate-600">Sostituzione molle e componenti usurati che compromettono il funzionamento.</p>
+          </div>
+        </div>
+
+        <div class="group bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200">
+          <div class="aspect-square overflow-hidden">
+            <img alt="Motore serranda Parma" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/motore-serranda.png" />
+          </div>
+          <div class="p-5">
+            <h4 class="font-bold text-lg mb-2">Motore serranda</h4>
+            <p class="text-sm text-slate-600">Riparazione o sostituzione motore per serranda manuale o motorizzata.</p>
+          </div>
+        </div>
+
+        <div class="group bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-200">
+          <div class="aspect-square overflow-hidden">
+            <img alt="Serranda storta o fuori asse a Parma" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/serranda-storta.png" />
+          </div>
+          <div class="p-5">
+            <h4 class="font-bold text-lg mb-2">Serranda storta</h4>
+            <p class="text-sm text-slate-600">Quando la serranda lavora male, sfrega o scende fuori asse.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servizi -->
+  <section class="py-20 bg-white" id="servizi">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl lg:text-4xl font-black mb-4">Servizi su serrande a Parma e provincia</h2>
+        <p class="text-lg text-slate-600">
+          Ci occupiamo di riparazione serrande, installazione serrande nuove, sostituzione motori,
+          sostituzione molle e interventi su serrande di negozi, garage, abitazioni e attività commerciali.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="flex gap-4 p-6 rounded-2xl border border-slate-200 bg-background-light">
+          <span class="material-symbols-outlined text-3xl text-primary shrink-0">settings_suggest</span>
+          <div>
+            <h4 class="font-bold text-lg mb-2">Riparazione serrande</h4>
+            <p class="text-slate-600 text-sm">Per serrande bloccate, danneggiate, storte o che non scorrono correttamente.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 p-6 rounded-2xl border border-slate-200 bg-background-light">
+          <span class="material-symbols-outlined text-3xl text-primary shrink-0">garage_home</span>
+          <div>
+            <h4 class="font-bold text-lg mb-2">Installazione serrande nuove</h4>
+            <p class="text-slate-600 text-sm">Montaggio di nuove serrande per abitazioni, garage, negozi e magazzini.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 p-6 rounded-2xl border border-slate-200 bg-background-light">
+          <span class="material-symbols-outlined text-3xl text-primary shrink-0">electric_bolt</span>
+          <div>
+            <h4 class="font-bold text-lg mb-2">Nuovi motori per serranda</h4>
+            <p class="text-slate-600 text-sm">Sostituzione o installazione di motori per rendere automatica la tua serranda.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 p-6 rounded-2xl border border-slate-200 bg-background-light">
+          <span class="material-symbols-outlined text-3xl text-primary shrink-0">autorenew</span>
+          <div>
+            <h4 class="font-bold text-lg mb-2">Sostituzione molle</h4>
+            <p class="text-slate-600 text-sm">Interventi su molle usurate o rotte e sostituzione dei principali componenti meccanici.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 p-6 rounded-2xl border border-slate-200 bg-background-light">
+          <span class="material-symbols-outlined text-3xl text-primary shrink-0">storefront</span>
+          <div>
+            <h4 class="font-bold text-lg mb-2">Serrande per negozi</h4>
+            <p class="text-slate-600 text-sm">Assistenza su serrande commerciali, attività, laboratori, magazzini e ingressi carrabili.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 p-6 rounded-2xl border border-slate-200 bg-background-light">
+          <span class="material-symbols-outlined text-3xl text-primary shrink-0">build_circle</span>
+          <div>
+            <h4 class="font-bold text-lg mb-2">Valutazione tecnica diretta</h4>
+            <p class="text-slate-600 text-sm">Contatto diretto con tecnici locali per capire la soluzione più adatta al problema.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prezzi -->
+  <section class="py-20 bg-primary text-white" id="prezzi">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-start">
+        <div>
+          <h2 class="text-3xl lg:text-4xl font-black mb-8">Prezzi indicativi per serrande a Parma</h2>
+          <div class="space-y-4">
+            <div class="flex justify-between items-center p-6 bg-white/5 rounded-xl border border-white/10">
+              <span class="font-medium text-lg">Sblocco semplice</span>
+              <span class="text-2xl font-black">da € 39,00</span>
+            </div>
+            <div class="flex justify-between items-center p-6 bg-white/5 rounded-xl border border-white/10">
+              <span class="font-medium text-lg">Sblocco meccanico</span>
+              <span class="text-2xl font-black">da € 80,00</span>
+            </div>
+            <div class="flex justify-between items-center p-6 bg-white/5 rounded-xl border border-white/10">
+              <span class="font-medium text-lg">Sostituzione molla</span>
+              <span class="text-2xl font-black">da € 120,00</span>
+            </div>
+            <div class="flex justify-between items-center p-6 bg-white/5 rounded-xl border border-white/10">
+              <span class="font-medium text-lg">Motorizzazione serranda</span>
+              <span class="text-2xl font-black">da € 250,00</span>
+            </div>
+            <div class="flex justify-between items-center p-6 bg-white/5 rounded-xl border border-white/10">
+              <span class="font-medium text-lg">Nuova serranda</span>
+              <span class="text-2xl font-black">su richiesta</span>
+            </div>
+          </div>
+          <p class="mt-8 text-sm text-white/70">
+            * Prezzi indicativi a partire da. Possono variare in base a misure, tipologia della serranda, componenti da sostituire e complessità dell’intervento.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 lg:p-12 text-slate-900 shadow-2xl relative overflow-hidden">
+          <div class="absolute top-0 right-0 p-4 opacity-5">
+            <span class="material-symbols-outlined text-9xl">tips_and_updates</span>
+          </div>
+          <div class="flex items-center gap-3 mb-6">
+            <div class="bg-primary/10 p-2 rounded-full">
+              <span class="material-symbols-outlined text-primary">engineering</span>
+            </div>
+            <span class="text-xs font-black uppercase tracking-widest text-primary">Consiglio del Tecnico</span>
+          </div>
+          <h4 class="text-2xl font-bold mb-4">Non forzare una serranda bloccata</h4>
+          <p class="text-slate-600 mb-6 leading-relaxed">
+            Forzare una serranda che non sale o non scende correttamente può peggiorare il danno e causare la rottura di molle,
+            guide o motore. In molti casi intervenire subito in modo corretto evita una spesa più alta dopo.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-primary/90 transition-all" href="tel:+390521272508">
+              Chiama l’officina
+            </a>
+            <a class="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition-all" target="_blank" rel="noopener" href="https://wa.me/393385213333?text=Ciao%2C%20ho%20una%20serranda%20bloccata%20o%20danneggiata%20a%20Parma%20o%20provincia.%20Posso%20inviarvi%20una%20foto%3F">
+              Invia foto su WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zone -->
+  <section class="py-20 bg-slate-50" id="zone">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-black mb-8">Operiamo a Parma e in tutta la provincia</h2>
+          <p class="text-lg text-slate-600 mb-8">
+            Interveniamo su serrande a Parma città e in molti comuni della provincia:
+            Fidenza, Salsomaggiore Terme, Collecchio, Langhirano, Noceto, Fontevivo, Sala Baganza,
+            Felino, Traversetolo, Torrile, Colorno, Busseto, Fontanellato, San Secondo Parmense,
+            Sorbolo Mezzani, Medesano, Fornovo di Taro e zone limitrofe.
+          </p>
+
+          <div class="grid grid-cols-2 gap-8">
+            <div>
+              <h5 class="font-bold text-primary mb-4 uppercase text-xs tracking-widest">Quartieri di Parma</h5>
+              <ul class="space-y-2 text-slate-600">
+                <li>Centro Storico</li>
+                <li>Oltretorrente</li>
+                <li>San Lazzaro</li>
+                <li>Molinetto</li>
+                <li>Cittadella</li>
+                <li>Montanara</li>
+                <li>Pablo</li>
+                <li>Lubiana</li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="font-bold text-primary mb-4 uppercase text-xs tracking-widest">Comuni serviti</h5>
+              <ul class="space-y-2 text-slate-600">
+                <li>Fidenza</li>
+                <li>Salsomaggiore Terme</li>
+                <li>Collecchio</li>
+                <li>Langhirano</li>
+                <li>Noceto</li>
+                <li>Fontevivo</li>
+                <li>Felino</li>
+                <li>Traversetolo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-xl border border-slate-200">
+          <h3 class="text-2xl font-black mb-4">Perché ci scelgono a Parma</h3>
+          <div class="space-y-4 text-slate-700">
+            <div class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">check_circle</span>
+              <p>Tecnici locali e contatto diretto con Nuova Carpenteria Metallica</p>
+            </div>
+            <div class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">check_circle</span>
+              <p>Esperienza dal 1970 su chiusure metalliche e serrande</p>
+            </div>
+            <div class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">check_circle</span>
+              <p>Riparazione, sostituzione e installazione nuove serrande</p>
+            </div>
+            <div class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">check_circle</span>
+              <p>Nuovi motori per serranda e assistenza su motorizzazioni</p>
+            </div>
+            <div class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">check_circle</span>
+              <p>Interventi su abitazioni, garage, negozi, ingressi carrabili e attività</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA intermedia -->
+  <section class="py-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-primary rounded-3xl text-white p-8 lg:p-12 text-center shadow-2xl">
+        <h2 class="text-3xl lg:text-4xl font-black mb-4">Hai una serranda bloccata, storta o con il motore guasto?</h2>
+        <p class="text-white/80 text-lg max-w-3xl mx-auto mb-8">
+          Scrivici su WhatsApp, inviaci una foto oppure chiamaci direttamente.
+          Ti risponde un tecnico locale, non un call center.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a class="bg-white text-primary px-8 py-4 rounded-xl text-lg font-black hover:scale-[1.02] transition-transform" href="tel:+390521272508">
+            CHIAMA ORA
+          </a>
+          <a class="bg-green-600 text-white px-8 py-4 rounded-xl text-lg font-black hover:bg-green-700 transition-colors" target="_blank" rel="noopener" href="https://wa.me/393385213333?text=Ciao%2C%20vorrei%20richiedere%20un%20intervento%20per%20una%20serranda%20a%20Parma%20o%20provincia.">
+            RICHIEDI INTERVENTO SU WHATSAPP
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contatti -->
+  <section class="py-20 bg-background-light" id="contatti">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-[2.5rem] shadow-2xl overflow-hidden grid lg:grid-cols-5 border border-primary/10">
+        <div class="lg:col-span-2 bg-primary p-10 lg:p-16 text-white flex flex-col justify-between">
+          <div>
+            <h2 class="text-3xl font-black mb-8 leading-tight">Contatti rapidi</h2>
+            <div class="space-y-8">
+              <div class="flex items-center gap-6">
+                <span class="material-symbols-outlined text-3xl opacity-60">call</span>
+                <div>
+                  <p class="text-xs uppercase opacity-70 font-bold mb-1">Telefono officina</p>
+                  <a class="text-2xl font-bold" href="tel:+390521272508">0521 272508</a>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <span class="material-symbols-outlined text-3xl opacity-60">chat</span>
+                <div>
+                  <p class="text-xs uppercase opacity-70 font-bold mb-1">WhatsApp foto / intervento</p>
+                  <a class="text-lg font-medium" target="_blank" rel="noopener" href="https://wa.me/393385213333?text=Ciao%2C%20vorrei%20richiedere%20un%20intervento%20per%20una%20serranda%20a%20Parma%20o%20provincia.">+39 338 5213333</a>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <span class="material-symbols-outlined text-3xl opacity-60">mail</span>
+                <div>
+                  <p class="text-xs uppercase opacity-70 font-bold mb-1">Email</p>
+                  <a class="text-lg font-medium" href="mailto:info@nuovacarpenteriametallica.it">info@nuovacarpenteriametallica.it</a>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-6">
+                <span class="material-symbols-outlined text-3xl opacity-60">pin_drop</span>
+                <div>
+                  <p class="text-xs uppercase opacity-70 font-bold mb-1">Area operativa</p>
+                  <p class="text-lg font-medium">Parma e provincia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-12 pt-8 border-t border-white/10 text-sm opacity-80 leading-relaxed">
+            Siamo i tecnici locali di Nuova Carpenteria Metallica, attiva dal 1970.
+            Operiamo su serrande di garage, negozi, attività commerciali e ingressi carrabili.
+          </div>
+        </div>
+
+        <div class="lg:col-span-3 p-10 lg:p-16">
+          <h3 class="text-3xl font-black mb-4">Richiedi un intervento su WhatsApp</h3>
+          <p class="text-slate-600 mb-8">
+            Compila i campi qui sotto e premi il pulsante. Si aprirà WhatsApp con il messaggio già pronto da inviare al numero
+            <strong>+39 338 5213333</strong>.
+          </p>
+
+          <form id="whatsappForm" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-400">Nome e Cognome</label>
+              <input id="nome" class="bg-slate-50 border-none rounded-xl p-4 focus:ring-2 focus:ring-primary transition-all" placeholder="Mario Rossi" type="text" />
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-400">Telefono</label>
+              <input id="telefono" class="bg-slate-50 border-none rounded-xl p-4 focus:ring-2 focus:ring-primary transition-all" placeholder="333 1234567" type="tel" />
+            </div>
+
+            <div class="md:col-span-2 flex flex-col gap-2">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-400">Indirizzo intervento</label>
+              <input id="indirizzo" class="bg-slate-50 border-none rounded-xl p-4 focus:ring-2 focus:ring-primary transition-all" placeholder="Via Emilia, Parma" type="text" />
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-400">Tipo richiesta</label>
+              <select id="problema" class="bg-slate-50 border-none rounded-xl p-4 focus:ring-2 focus:ring-primary transition-all">
+                <option>Serranda bloccata</option>
+                <option>Serranda storta o fuori asse</option>
+                <option>Molla rotta</option>
+                <option>Motore da sostituire</option>
+                <option>Nuova serranda</option>
+                <option>Nuovo motore per serranda</option>
+                <option>Altro</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-400">Città / Comune</label>
+              <input id="citta" class="bg-slate-50 border-none rounded-xl p-4 focus:ring-2 focus:ring-primary transition-all" placeholder="Parma, Fidenza, Collecchio..." type="text" />
+            </div>
+
+            <div class="md:col-span-2 flex flex-col gap-2">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-400">Note o dettagli</label>
+              <textarea id="note" class="bg-slate-50 border-none rounded-xl p-4 focus:ring-2 focus:ring-primary transition-all" placeholder="Descrivi brevemente il problema..." rows="4"></textarea>
+            </div>
+
+            <div class="md:col-span-2 flex flex-wrap gap-4">
+              <button class="flex-1 min-w-[220px] bg-green-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition-all shadow-lg" type="submit">
+                INVIA RICHIESTA SU WHATSAPP
+              </button>
+
+              <a class="flex-1 min-w-[220px] bg-primary text-white py-4 rounded-xl font-bold text-lg text-center hover:bg-primary/90 transition-all shadow-lg" href="mailto:info@nuovacarpenteriametallica.it?subject=Richiesta%20informazioni%20serrande%20Parma">
+                SCRIVI UNA MAIL
+              </a>
+            </div>
+
+            <p class="md:col-span-2 text-center text-[12px] text-slate-400 mt-2">
+              Per inviare foto o video del problema puoi usare direttamente il pulsante WhatsApp.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-white py-16 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-12 mb-12">
+        <div class="col-span-2">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="bg-primary text-white p-2 rounded-lg">
+              <span class="material-symbols-outlined text-2xl">construction</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-white font-black text-xl leading-none">ParmaSerrande.it</span>
+              <span class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Nuova Carpenteria Metallica dal 1970</span>
+            </div>
+          </div>
+
+          <p class="text-slate-400 max-w-lg mb-8 leading-relaxed">
+            Parma Serrande è il servizio dedicato di Nuova Carpenteria Metallica per riparazione serrande,
+            sostituzione motori, sostituzione molle, installazione di serrande nuove e motorizzazioni a Parma e provincia.
+          </p>
+
+          <div class="flex flex-wrap gap-3">
+            <a class="bg-primary px-4 py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors" href="tel:+390521272508">Chiama ora</a>
+            <a class="bg-green-600 px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors" target="_blank" rel="noopener" href="https://wa.me/393385213333?text=Ciao%2C%20vorrei%20informazioni%20su%20una%20serranda%20a%20Parma%20o%20provincia.">WhatsApp</a>
+          </div>
+        </div>
+
+        <div>
+          <h5 class="font-bold mb-6">Servizi</h5>
+          <ul class="space-y-4 text-slate-400 text-sm font-medium">
+            <li>Riparazione serrande</li>
+            <li>Serrande nuove</li>
+            <li>Nuovi motori per serranda</li>
+            <li>Sostituzione molle</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="font-bold mb-6">Zone servite</h5>
+          <ul class="space-y-4 text-slate-400 text-sm font-medium">
+            <li>Parma</li>
+            <li>Fidenza</li>
+            <li>Collecchio</li>
+            <li>Salsomaggiore</li>
+            <li>Langhirano</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+        <p class="text-slate-500 text-sm">© 2025 Nuova Carpenteria Metallica - Parma Serrande</p>
+        <p class="text-slate-500 text-sm">Parma e provincia · Tel. 0521 272508 · info@nuovacarpenteriametallica.it</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky bar -->
+  <div class="fixed bottom-0 inset-x-0 z-50 bg-white border-t border-slate-200 shadow-2xl md:hidden">
+    <div class="grid grid-cols-2 gap-2 p-3">
+      <a href="tel:+390521272508" class="bg-primary text-white text-center font-black py-3 rounded-xl">Chiama</a>
+      <a target="_blank" rel="noopener" href="https://wa.me/393385213333?text=Ciao%2C%20vorrei%20richiedere%20un%20intervento%20per%20una%20serranda%20a%20Parma%20o%20provincia." class="bg-green-600 text-white text-center font-black py-3 rounded-xl">WhatsApp</a>
+    </div>
   </div>
-</section>
 
-<!-- CONTATTI -->
-<section class="py-12 text-center bg-gray-900 text-white">
-  <h2 class="text-2xl font-bold mb-4">Contattaci</h2>
+  <script>
+    document.getElementById("whatsappForm").addEventListener("submit", function(e) {
+      e.preventDefault();
 
-  <p class="mb-6">Per informazioni o per richiedere un intervento:</p>
+      const nome = document.getElementById("nome").value.trim();
+      const telefono = document.getElementById("telefono").value.trim();
+      const indirizzo = document.getElementById("indirizzo").value.trim();
+      const problema = document.getElementById("problema").value.trim();
+      const citta = document.getElementById("citta").value.trim();
+      const note = document.getElementById("note").value.trim();
 
-  <a href="tel:0521272508" 
-     class="bg-green-500 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow">
-    Chiama 0521 272508
-  </a>
-</section>
+      const messaggio =
+`Ciao, vorrei richiedere un intervento per una serranda.
 
+Nome: ${nome || "-"}
+Telefono: ${telefono || "-"}
+Indirizzo intervento: ${indirizzo || "-"}
+Tipo richiesta: ${problema || "-"}
+Città / Comune: ${citta || "-"}
+Note: ${note || "-"}
+
+Scrivo dal sito parmaserrande.it`;
+
+      const url = "https://wa.me/393385213333?text=" + encodeURIComponent(messaggio);
+      window.open(url, "_blank");
+    });
+  </script>
 </body>
 </html>
